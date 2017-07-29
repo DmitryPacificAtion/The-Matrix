@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	border: 0;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+}
+
+//================= FONTS ======================
+
+@font-face {
+	font-family: 'Cousine';
+	src: url('Fonts/Cousine-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Cousine';
+	src: url('Fonts/Cousine-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Cousine';
+	src: url('Fonts/Cousine-Italic.ttf');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Cousine';
+	src: url('Fonts/Cousine-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.container {
+	// border: 5px solid #222;
+	background-color: #000;
+	height: 400px;
+	margin: 50px auto;
+	overflow: hidden;
+	padding: 5px;
+	width: 800px;
+}
+
+.container p {
+	font-family: 'Cousine';
+}
+td {
+	width: calc(800px / 28);
+	padding: 0;
+	vertical-align: top;
+}
+td span {
+	display: block;
+	text-shadow: 6px 6px 6px #637966;
+	color: #4ce45b; 
+
+}
+td span:last-child, td span:nth-child(10) {
+	color: #ceeacc;
+}
