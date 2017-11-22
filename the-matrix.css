@@ -51,12 +51,11 @@ td {
 	padding: 0;
 	vertical-align: top;
 }
-td span {
-	display: block;
+td p {
 	text-shadow: 6px 6px 6px #637966;
 	color: #4ce45b; 
 
 }
-td span:last-child, td span:nth-child(10) {
+td p:last-child, td p:nth-child(10) {
 	color: #ceeacc;
 }
